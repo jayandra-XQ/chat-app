@@ -38,7 +38,7 @@ const SignUp = () => {
 
           <div>
             <label className='label p-2'>
-              <span className='text-base label-text'>Full Name</span>
+              <span className='text-base label-text font-black text-gray-600'>Full Name</span>
             </label>
             <input type="text" className="w-full input input-bordered h-10" 
               value={inputs.fullName}
@@ -48,7 +48,7 @@ const SignUp = () => {
 
           <div>
             <label className='label p-2'>
-              <span className='text-base label-text'>Username</span>
+              <span className='text-base label-text font-black text-gray-600'>Username</span>
             </label>
             <input type="text" className="w-full input input-bordered h-10" 
             value={inputs.username}
@@ -58,7 +58,7 @@ const SignUp = () => {
 
           <div>
             <label className='label p-2'>
-              <span className='text-base label-text'>Password</span>
+              <span className='text-base label-text font-black text-gray-600'>Password</span>
             </label>
             <input type="text" className="w-full input input-bordered h-10" 
             value={inputs.password}
@@ -68,7 +68,7 @@ const SignUp = () => {
 
           <div>
             <label className='label p-2'>
-              <span className='text-base label-text'>Confirm Password</span>
+              <span className='text-base label-text font-black text-gray-600'>Confirm Password</span>
             </label>
             <input type="text" className="w-full input input-bordered h-10" 
             value={inputs.confirmPassword}
@@ -80,7 +80,7 @@ const SignUp = () => {
           <GenderCheckbox onCheckboxChange = {handleCheckboxChange} selectedGender={inputs.gender}  />
 
           <Link to={"/login"}
-            className="text-sm hover:underline hover:text-blue-600 mt-2 inline-block"
+            className="text-sm hover:underline hover:text-blue-600 mt-2 inline-block font-black text-gray-600"
           >
             Already have an account?
           </Link>
